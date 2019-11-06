@@ -3,6 +3,7 @@ package businesshousegame;
 import java.util.List;
 
 public class Game {
+    private int currentPlayerIndex;
     private  int chances;
     private Board board;
     private List<Player> players;
@@ -11,6 +12,7 @@ public class Game {
         this.board = board;
         this.players = players;
         this.chances = players.size()*10;
+        this.currentPlayerIndex=0;
     }
 
     public boolean isRunning() {
