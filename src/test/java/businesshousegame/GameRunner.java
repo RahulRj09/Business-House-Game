@@ -16,7 +16,7 @@ public class GameRunner {
         players.add(player2);
         Game game = new Game(board,players);
         while (game.isRunning()){
-
+            game.play();
         }
     }
 }
