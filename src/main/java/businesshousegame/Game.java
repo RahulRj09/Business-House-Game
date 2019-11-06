@@ -11,4 +11,3 @@ public class Game {
         this.players = players;
     }
 }
-
