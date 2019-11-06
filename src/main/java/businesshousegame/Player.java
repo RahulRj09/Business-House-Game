@@ -1,5 +1,4 @@
 package businesshousegame;
 
-public class Game {
-
+public class Player {
 }
