@@ -12,7 +12,7 @@ public class Game {
     }
 
     public boolean isRunning() {
-        return false;
+        return true;
     }
 
     public void play() {
